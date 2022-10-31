@@ -1,0 +1,20 @@
+{
+  "include": ["src/**/*"],   
+  "compilerOptions": {
+      "target": "es2020",
+      "strict": true,
+      "preserveConstEnums": true,
+      "noEmit": false,
+      "sourceMap": false,
+      "module":"commonjs",
+      "lib":["ES2019"],
+      "moduleResolution":"node",
+      "esModuleInterop": true, 
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "noImplicitAny": false,
+      "watch": true,
+      "outDir": "./dist",
+      },
+    "exclude": ["node_modules", "**/*.test.ts"]
+  }
